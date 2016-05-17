@@ -16,3 +16,4 @@ list.insertHead(9)
 console.log(list.head.data); //8
 console.log(list.head.next.data); //9
 console.log(list.head.next.next.next.data); //11
+console.log(list.head.next.next.next.prev.data); //10
