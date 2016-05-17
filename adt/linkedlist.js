@@ -15,6 +15,7 @@ LinkedList.prototype.insertHead = function (data) {
   else {
     // insert that node at the head of this
     node.next = this.head;
+    this.head.prev = node;
     this.head = node;
   }
   return this;
@@ -39,6 +40,7 @@ LinkedList.prototype.insertTail = function (data) {
     // once nextNode.next is undefined, nextNode becomes node
     // nextNode.next = node;
     this.tail.next = node;
+    node.prev = this.tail;
     this.tail = node;
   }
   return this;
