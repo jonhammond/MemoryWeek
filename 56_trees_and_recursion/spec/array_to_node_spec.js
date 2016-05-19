@@ -33,7 +33,7 @@ describe('arrayToNode', function() {
   });
 
   it("handles deeply nested nodes", function () {
-    pending();
+    // pending();
     var input = [
       'a',
       [

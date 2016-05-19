@@ -3,7 +3,7 @@ var objectToNode = require('../object_to_node');
 describe('objectToNode', function() {
 
   it("turns an object into a node", function () {
-    pending();
+    // pending();
     var input = {
       name: 'a',
       children: []
@@ -13,7 +13,7 @@ describe('objectToNode', function() {
   });
 
   it("handles deeply nested objects", function () {
-    pending();
+    // pending();
     var input = {
       name: 'a',
       children: [

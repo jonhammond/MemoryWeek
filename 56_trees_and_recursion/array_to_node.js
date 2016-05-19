@@ -45,8 +45,6 @@ var Node = require('./node');
 
 var arrayToNode = function(input) {
   var outputNode = new Node(input[0]);
-  // console.log("Input: ",input);
-  // console.log("InputLength: ",input.length);
   for (var i=0; i<input[1].length; i++) {
     outputNode.addChild(arrayToNode(input[1][i]));
   }
