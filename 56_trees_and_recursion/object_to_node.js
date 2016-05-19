@@ -44,6 +44,7 @@
 var Node = require('./node');
 
 var objectToNode = function(object) {
+  
 };
 
 module.exports = objectToNode;

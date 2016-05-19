@@ -2,7 +2,7 @@ var arrayToNode = require('../array_to_node');
 
 describe('arrayToNode', function() {
   it("turns a two-element arrays into a node", function () {
-    pending();
+    // pending();
     var input = [
       'a',
       []
@@ -12,7 +12,7 @@ describe('arrayToNode', function() {
   });
 
   it("turns nested arrays into child nodes", function () {
-    pending();
+    // pending();
     var input = [
       'a',
       [
